@@ -1,0 +1,138 @@
+:root{
+	margin: 0px;
+	padding: 0px;
+}
+ul{
+	float: right;
+	list-style-type: none;
+    margin-top: 25px;
+}
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: black;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+    transition: 0.6s ease;
+
+
+}
+
+ul li a:hover{
+	background-color:black ;
+	color: white
+
+  }
+  ul li.active a{
+  	background-color:black ;
+	color: white;
+
+  }
+h1{
+	text-align: center;
+}
+
+.lev1{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+.lev21{
+	width:500px;
+}
+.lev22{
+	width:500px;
+}
+
+input[type=text], select, textarea {
+	width: 100%; 
+	padding: 12px; 
+	border: 1px solid #ccc;
+	border-radius: 4px; 
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px; 
+	resize: vertical 
+  }
+  
+
+  input[type=submit] {
+	background-color: #4CAF50;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+  }
+  
+  
+  input[type=submit]:hover {
+	background-color: #45a049;
+  }
+  
+  
+  .container {
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 20px;
+  }
+
+  .contact{
+    margin: 1%;
+    margin-top: 10vh;
+    background-color: rgb(227, 234, 255);
+    border-radius:15px;
+    min-height: 80vh;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+h2{
+    margin: auto;
+    margin-left: 0px;
+    padding-left: 15px;
+	font-size: 2rem;
+}
+
+.panes{
+    padding: 2%;
+    margin-top: 0px;
+}
+
+.image{
+    width: 40px;
+}
+
+.pane1{
+    display: flex;
+}
+
+.pane2{
+    display: flex;
+}
+
+.pane3{
+    display: flex;
+}
+
+p{
+    padding-left: 4%;
+    padding-right: 4%;
+    margin-top: 0px;
+	font-size: 1.5rem;
+}
+
+a{
+    color: black;
+}
+
+a:hover{
+    color: rgb(255, 123, 0);
+}

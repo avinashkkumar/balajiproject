@@ -39,6 +39,9 @@ ul li a:hover{
 	color: white;
 
   }
+  #img{
+	  width: 30px;
+  }
 
 .logo img{
   	float: left;
@@ -54,6 +57,10 @@ ul li a:hover{
   	top:50%;
   	left:40%;
   	transform: translate(-50%,-50%);
+  }
+  .noleft{
+	  padding-left: 0px;
+	  margin-left: 0px;
   }
   .btn{
   	border:1px solid white;

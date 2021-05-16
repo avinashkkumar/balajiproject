@@ -11,9 +11,16 @@ header{
   background-position: center;
 }
 ul{
-	float: right;
+	display: flex;
+	flex-direction: row;
 	list-style-type: none;
     margin-top: 25px;
+}
+
+.logo{
+	margin: auto;
+	display: flex;
+	align-content: space-between;
 }
 ul li{
 	display: inline-block;
@@ -44,13 +51,13 @@ ul li a:hover{
   }
 
 .logo img{
-  	float: left;
+  	/* float: left; */
   	width: 200px;
-  	height: auto;
+  	/* height: auto; */
   }
   .main{
-  	max-width: 1200px;
-  	margin: auto;
+  	width: 100%;
+  	/* margin: auto; */
   }
   .button{
   	position: absolute;
@@ -63,12 +70,24 @@ ul li a:hover{
 	  margin-left: 0px;
   }
   .btn{
-  	border:1px solid white;
+  	border: 3px solid red;
   	padding: 10px 15px;
   	color: white;
   	text-decoration: none;
   	transition:0.6s ease;
+	animation: flash 3s   infinite  ease-in-out;
+  }
 
+  @keyframes flash{
+	40% {
+		border: 3px solid yellow;
+	}
+	50% {
+		border: 3px solid yellow;
+	}
+	100% {
+		border: 3px solid red;
+	}
   }
   .btn:hover{
   	background-color:black ;

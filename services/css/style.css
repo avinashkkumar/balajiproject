@@ -9,6 +9,8 @@
 :root{
     --imgwidth:300px;
     --parawidth: 400px;
+    --formwidth:260px;
+    --formcontainer:300px;
     --rate:#ff0000;
     --white:#ffffff;
     --highlight:#cb48ff;
@@ -22,6 +24,14 @@ body{
 
 h1{
     text-align: center;
+}
+h3{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.marb{
+    margin-bottom: 0.7rem;
 }
 
 /* Navigation */
@@ -100,6 +110,19 @@ a{
     color: var(--rate);
     width: fit-content;
     padding:0px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width:var(--formwidth) ;
+    margin: auto;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    width: var(--formcontainer);
+    margin: auto;
 }
 
 
